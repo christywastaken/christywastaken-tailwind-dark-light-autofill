@@ -1,8 +1,8 @@
 {
   "name": "tailwind-dark-light-autofill",
-  "displayName": "AAA Tailwind Dark/Light Autofill",
-  "description": "Automatically fills light mode Tailwind CSS classes when dark mode classes are typed in any file",
-  "version": "0.0.1",
+  "displayName": "Tailwind Dark/Light Autofill",
+  "description": "Automatically fills light mode Tailwind CSS classes for dark/light mode",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -10,7 +10,10 @@
     "Other"
   ],
   "activationEvents": [
-    "*"
+    "onLanguage:html",
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:vue"
   ],
   "main": "./dist/extension.js",
   "contributes": {},

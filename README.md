@@ -22,14 +22,14 @@ Tailwind Dark/Light Mode Autofill is a Visual Studio Code extension that streaml
 
 ## Usage
 
-1. Create a `tailwind-dark-light-mapping.json` file in the root of your project (see Configuration section below)
+1. Create a `.tailwindDarkLightrc` file in the root of your project (see Configuration section below)
 2. Open a file that uses Tailwind CSS classes (e.g., .html, .jsx, .vue)
 3. Start typing a Tailwind class, for example: `bg-lime-200` or `dark:bg-lime-200` depending on if you type your dark or light mode first.
 4. The extension will automatically insert the corresponding paired class based on your configuration
 
 ## Configuration
 
-Create a `tailwind-dark-light-mapping.json` file in the root of your project with the following structure:
+Create a `.tailwindDarkLightrc` file in the root of your project with the following structure:
 
 ```json
 {
@@ -43,7 +43,6 @@ Create a `tailwind-dark-light-mapping.json` file in the root of your project wit
 ```
 
 - `colors`: An object mapping dark mode colors to light mode colors (or vice versa)
-**⚠️ Please note: There is currently a bug with `lightModeFirst: true` and it may not work as expected.**
 - `lightModeFirst`: 
   - Set to `true` if you typically write light mode classes first and want dark mode classes added automatically
   - Set to `false` if you typically write dark mode classes first and want light mode classes added automatically
@@ -71,7 +70,6 @@ The extension supports the following Tailwind color utilities:
 With `"lightModeFirst": false`:
 - Typing `dark:bg-lime-800` will automatically add `bg-lime-200`
 
-**⚠️ Please note: There is currently a bug with `lightModeFirst: true` and it may not work as expected.**
 
 With `"lightModeFirst": true`:
 - Typing `bg-lime-200` will automatically add `dark:bg-lime-800`
@@ -79,14 +77,9 @@ With `"lightModeFirst": true`:
 
 ## Feedback and Contributions
 
-We welcome your feedback and contributions! Please visit our [GitHub repository](https://github.com/yourusername/tailwind-dark-light-mode-autofill) to submit issues, feature requests, or pull requests.
+We welcome your feedback and contributions! Please visit our [GitHub repository](https://github.com/ChristyWasTaken/tailwind-dark-light-mode-autofill) to submit issues, feature requests, or pull requests.
 
 ## License
 
 This extension is released under the [MIT License](https://opensource.org/licenses/MIT).
 
-## About
-
-Tailwind Dark/Light Mode Autofill is developed and maintained by [Your Name/Company]. For more information, visit [your website or contact information].
-
-Enjoy faster and more consistent dark/light mode styling with Tailwind CSS!
