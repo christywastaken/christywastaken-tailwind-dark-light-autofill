@@ -69,12 +69,12 @@ The extension supports the following Tailwind color utilities:
 ## Examples
 
 With `"lightModeFirst": false`:
-- Typing `dark:bg-inky-depths-950` will automatically add `bg-wave-crest-50`
+- Typing `dark:bg-lime-800` will automatically add `bg-lime-200`
 
 **⚠️ Please note: There is currently a bug with `lightModeFirst: true` and it may not work as expected.**
 
 With `"lightModeFirst": true`:
-- Typing `bg-wave-crest-50` will automatically add `dark:bg-inky-depths-950`
+- Typing `bg-lime-200` will automatically add `dark:bg-lime-800`
 
 
 ## Feedback and Contributions
