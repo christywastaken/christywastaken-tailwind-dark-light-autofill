@@ -2,7 +2,7 @@
   "name": "tailwind-dark-light-autofill",
   "displayName": "Tailwind Dark/Light Autofill",
   "description": "Automatically fills light mode Tailwind CSS classes for dark/light mode",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.80.0"
   },
